@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html,body{height: 100%;}
+
+header{
+    background-color: #5582EB;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 2cap;
+    border-top-left-radius: 2cap;
+}
+
+.info-header{
+    color: #E9EBEF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.icon-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.body{ 
+    height: 100vh;
+    background-color: #F3F4F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #8e98b0;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+} 
+
+.sidebar{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+}
+
+.sidebar a:hover{
+    border-left: 4px solid #5582EB;
+    background-color: #F3F4F9;
+    padding: 10px;
+    border-end-end-radius: 10px;
+    border-top-right-radius:  10px;
+
+}
+
+.sidebar a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 40px;
+    color: #1d3161;
+} 
+
+
+.content{
+    width: 80%;
+    background-color: #F3F4F9;
+    padding: 20px;
+
+}
+
+.titulo-secao{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 3px; 
+    width: 35%;
+    height: 50px;
+    text-align: center;
+}
+
+.titulo-secao a{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 40px;
+    color: #1d3161;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.separator{
+    padding: 10px;
+    background-color: #F3F4F9;
+}
+
+.busca{
+    border-radius: 10px;
+    border-left: 10px;
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    height: 50px;
+}
+
+
+.reserva input[type="submit"]{
+    background-color: #5582EB;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#txtbusca{
+    background-color: #F3F4F9;
+    padding: 10px;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    size: 20px;
+    height: 20px;
+    width: 90%;
+}
+
+
+.btn-reserva {
+    background-color: #5582EB;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-info{
+    width: 100%;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.box-info-single{
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+}
+
+table{
+    display: inline-block;
+    border: 1px solid #1d3161;
+    border-radius: 10px;
+}
+
+th, td{
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px 50px;
+    text-align: left;
+    margin-top: 5px;
+    
+}
+
+img{
+    max-width: 150px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: table-column;
+    border-radius: 10px;
+
+}
+
+
+

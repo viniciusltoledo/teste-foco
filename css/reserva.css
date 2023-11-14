@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html,body{height: 100%;}
+
+header{
+    background-color: #5582EB;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 2cap;
+    border-top-left-radius: 2cap;
+}
+
+.info-header{
+    color: #E9EBEF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.icon-header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+} 
+
+.sidebar{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+}
+
+.sidebar a:hover{
+    border-left: 4px solid #5582EB;
+    background-color: #F3F4F9;
+    padding: 10px;
+    border-end-end-radius: 10px;
+    border-top-right-radius:  10px;
+}
+
+.sidebar a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 40px;
+    color: #1d3161;
+} 
+
+.content{
+    width: 80%;
+    background-color: #F3F4F9;
+    border-top: 20px;
+}
+ 
+
+#título{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1d3161;
+    margin-left: 7%;
+}
+
+fieldset{
+    border: 0;
+    margin: 10px;
+}
+
+body{
+    height: 100vh;
+    background-color: #F3F4F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #8e98b0;
+}
+
+input, select{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    margin-top: 0%;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo input[type="date"], .campo input[type="tel"], .campo input[type="datetime-local"], .campo input[type="submit"], .campo select{
+    padding: 0.2em;
+    border: 1px solid #8e98b0;
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.2); 
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input[type="submit"]{
+    background-color: #5582EB;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
