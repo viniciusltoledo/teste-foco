@@ -15,6 +15,7 @@ Em seguida apliquei uma tabela para implementar as informações das novas reser
 Confesso que tive dificuldades para edição da mesma usando o CSS, pois nunca tinha aplicado CSS numa tabela e não tive tempo para estudar. 
 Se você reparar, eu usei apenas três class e nenhum id para implementear e testar, então acabei optando por fazer umas aplicações diretas mesmo nas ul e li, e isso acabou resultando numa tabela simples de informações. 
 Infelizmente durante os sete dias para o teste tive também que me deditar a atividades do meu trabalho atual, por esse motivo também o projeto não tem as funcionalidades ativas, então é possível navegar pelas paginas, mas não é possível fazer ou deletar uma reserva no sistema. 
+O meu pouco conhecimento adequado em Js também imposibilitou que eu fisesse a precistência dos dados no localStorage.
 A propósito, para a página de reserva eu agrupei as div usando as tag fieldset para separar os dados da reserva e dados do responsável e utilisei as class="grupo" e para as informações dentro de cada uma usei div com a class="campo" para editar as informações que viriam dentro de cada grupo. Todas as aplicações do formulario estão formatadas para receber os tipos de dados especificos de cada uma com o input type adequado.
 
 É possivel ver o projeto em execulção na Vercel no link abaixo:
